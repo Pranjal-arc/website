@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spark Cleaning Services | Premium Commercial Cleaning</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <img 
+        src="https://naked-jade-firefly-90f2caf2e1.fimo.site/uploads/2026/03/15/scc-logo-clean.png" 
+        alt="SCC" 
+        class="preloader-logo-img"
+      >
+      <div class="preloader-text">Loading...</div>
+    </div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#hero" class="logo">
+        <img 
+          src="https://naked-jade-firefly-90f2caf2e1.fimo.site/uploads/2026/03/15/scc-logo-clean.png" 
+          alt="SCC" 
+          class="logo-img"
+        >
+        <span class="logo-text">Spark Cleaning</span>
+      </a>
+      
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav-link" data-text="About">About</a>
+        <a href="#services" class="nav-link" data-text="Services">Services</a>
+        <a href="#testimonials" class="nav-link" data-text="Reviews">Reviews</a>
+        <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="header-cta">
+        <span>Get Quote</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#testimonials" class="mobile-nav-link">Reviews</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+      </div>
+      
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge" data-animate="fade-up" data-delay="0">
+            <span class="badge-dot"></span>
+            <span>10+ Years of Excellence</span>
+          </div>
+          
+          <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+            <span class="title-line">Commercial</span>
+            <span class="title-line">Cleaning.</span>
+            <span class="title-line accent">Architectural</span>
+            <span class="title-line accent">Precision.</span>
+          </h1>
+          
+          <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+            We deliver spotless results for offices, showrooms, and leisure facilities. Every surface. Every time.
+          </p>
+          
+          <div class="hero-actions" data-animate="fade-up" data-delay="300">
+            <a href="#contact" class="btn btn-primary btn-glow">
+              <span>Request a Quote</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#services" class="btn btn-ghost">
+              <span>View Services</span>
+            </a>
+          </div>
+
+          <div class="hero-stats" data-animate="fade-up" data-delay="400">
+            <div class="hero-stat">
+              <span class="stat-number" data-count="500">0</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-number" data-count="10">0</span>
+              <span class="stat-suffix">+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-number" data-count="100">0</span>
+              <span class="stat-suffix">%</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-animate="fade-left" data-delay="200">
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=1000&fit=crop" alt="Modern clean office" class="hero-image">
+            <div class="hero-image-frame"></div>
+          </div>
+          <div class="hero-floating-card card-1">
+            <div class="floating-icon">✨</div>
+            <span>Eco-Friendly Products</span>
+          </div>
+          <div class="hero-floating-card card-2">
+            <div class="floating-icon">🏆</div>
+            <span>Award Winning</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <div class="section-label" data-animate="fade-up">
+              <span class="label-line"></span>
+              <span>About Spark Cleaning</span>
+            </div>
+            
+            <h2 class="section-title" data-animate="fade-up" data-delay="100">
+              Precision Cleaning for <span class="text-gradient">Premium Spaces</span>
+            </h2>
+            
+            <p class="about-text" data-animate="fade-up" data-delay="200">
+              Spark Cleaning Services is a trusted commercial cleaning company with over 10 years of industry experience. We specialize in delivering immaculate results for leisure facilities, showrooms, and commercial spaces.
+            </p>
+            
+            <p class="about-text" data-animate="fade-up" data-delay="250">
+              Our team combines meticulous attention to detail with professional-grade equipment and eco-friendly products. We understand that your space represents your brand—and we treat it accordingly.
+            </p>
+
+            <div class="about-features" data-animate="fade-up" data-delay="300">
+              <div class="feature-tag">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                HEPA Filtration
+              </div>
+              <div class="feature-tag">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                Eco-Friendly
+              </div>
+              <div class="feature-tag">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                UV-C Sterilization
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards">
+            <div class="stat-card" data-animate="fade-up" data-delay="100">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/>
+                </svg>
+              </div>
+              <div class="stat-value">500<span>+</span></div>
+              <div class="stat-name">Commercial Spaces</div>
+            </div>
+            
+            <div class="stat-card" data-animate="fade-up" data-delay="200">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div class="stat-value">10<span>+</span></div>
+              <div class="stat-name">Years Experience</div>
+            </div>
+            
+            <div class="stat-card" data-animate="fade-up" data-delay="300">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div class="stat-value">100<span>%</span></div>
+              <div class="stat-name">Satisfaction Rate</div>
+            </div>
+            
+            <div class="stat-card" data-animate="fade-up" data-delay="400">
+              <div class="stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <div class="stat-value">24/7</div>
+              <div class="stat-name">Availability</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-label centered">
+            <span class="label-line"></span>
+            <span>Our Services</span>
+            <span class="label-line"></span>
+          </div>
+          <h2 class="section-title centered">Tailored Cleaning <span class="text-gradient">Solutions</span></h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card" data-animate="fade-up" data-delay="100">
+            <div class="service-image">
+              <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&h=450&fit=crop" alt="Office Cleaning">
+              <div class="service-overlay">
+                <a href="#contact" class="service-btn">Get Quote</a>
+              </div>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                  2-4 hours
+                </span>
+                <span class="service-frequency">Weekly</span>
+              </div>
+              <h3 class="service-title">Office Deep Clean</h3>
+              <p class="service-description">Complete sanitization of workspaces, meeting rooms, and common areas with hospital-grade disinfectants.</p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-value">£299</span>
+                  <span class="price-period"></span>
+                </div>
+                <a href="#contact" class="service-link">
+                  Learn More
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card featured" data-animate="fade-up" data-delay="200">
+            <div class="service-badge">Most Popular</div>
+            <div class="service-image">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=450&fit=crop" alt="Showroom Cleaning">
+              <div class="service-overlay">
+                <a href="#contact" class="service-btn">Get Quote</a>
+              </div>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                  3-5 hours
+                </span>
+                <span class="service-frequency">Weekly</span>
+              </div>
+              <h3 class="service-title">Showroom Detailing</h3>
+              <p class="service-description">Meticulous attention to display areas, glass surfaces, and flooring to maintain that pristine showroom appeal.</p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-value">£449</span>
+                  <span class="price-period"></span>
+                </div>
+                <a href="#contact" class="service-link">
+                  Learn More
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card" data-animate="fade-up" data-delay="300">
+            <div class="service-image">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=450&fit=crop" alt="Leisure Facility Cleaning">
+              <div class="service-overlay">
+                <a href="#contact" class="service-btn">Get Quote</a>
+              </div>
+            </div>
+            <div class="service-content">
+              <div class="service-meta">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                  4-6 hours
+                </span>
+                <span class="service-frequency">Daily</span>
+              </div>
+              <h3 class="service-title">Leisure Facilities</h3>
+              <p class="service-description">Specialized cleaning for gyms, pools, and recreational spaces with focus on hygiene and safety standards.</p>
+              <div class="service-footer">
+                <div class="service-price">
+                  <span class="price-value">£150</span>
+                  <span class="price-period"></span>
+                </div>
+                <a href="#contact" class="service-link">
+                  Learn More
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="services-cta" data-animate="fade-up">
+          <p>Need a custom solution? We'll tailor our services to your exact requirements.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">
+            <span>Discuss Your Needs</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-label centered">
+            <span class="label-line"></span>
+            <span>Client Feedback</span>
+            <span class="label-line"></span>
+          </div>
+          <h2 class="section-title centered">Trusted by <span class="text-gradient">Industry Leaders</span></h2>
+        </div>
+
+        <div class="testimonials-slider" id="testimonialSlider">
+          <div class="testimonials-track">
+            <div class="testimonial-card" data-animate="fade-up" data-delay="100">
+              <div class="testimonial-quote-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M11.192 15.757c0-.88-.23-1.618-.69-2.217-.326-.412-.768-.683-1.327-.812-.55-.128-1.07-.137-1.54-.028-.16-.95.1-1.956.76-3.022.66-1.065 1.515-1.867 2.558-2.403L9.373 5c-.8.396-1.56.898-2.26 1.505-.71.607-1.34 1.305-1.9 2.094s-.98 1.68-1.25 2.69-.346 2.04-.217 3.1c.168 1.4.62 2.52 1.356 3.35.735.84 1.652 1.26 2.748 1.26.965 0 1.766-.29 2.4-.878.628-.576.94-1.365.94-2.368l.002.004zm9.124 0c0-.88-.23-1.618-.69-2.217-.326-.42-.768-.695-1.327-.825-.55-.13-1.07-.14-1.54-.03-.16-.94.09-1.95.75-3.02.66-1.06 1.514-1.86 2.557-2.4L18.49 5c-.8.396-1.555.898-2.26 1.505-.708.607-1.34 1.305-1.894 2.094-.556.79-.97 1.68-1.24 2.69-.273 1-.345 2.04-.217 3.1.168 1.4.62 2.52 1.356 3.35.735.84 1.652 1.26 2.748 1.26.965 0 1.766-.29 2.4-.878.628-.576.94-1.365.94-2.368l-.007.004z"/>
+                </svg>
+              </div>
+              <div class="testimonial-stars">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Spark transformed our office environment completely. The attention to detail is unmatched, and our team has noticed a significant improvement in air quality and overall cleanliness."
+              </blockquote>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="James Mitchell" class="author-avatar">
+                <div class="author-info">
+                  <div class="author-name">James Mitchell</div>
+                  <div class="author-role">Operations Director, TechFlow Ltd</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" data-animate="fade-up" data-delay="200">
+              <div class="testimonial-quote-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M11.192 15.757c0-.88-.23-1.618-.69-2.217-.326-.412-.768-.683-1.327-.812-.55-.128-1.07-.137-1.54-.028-.16-.95.1-1.956.76-3.022.66-1.065 1.515-1.867 2.558-2.403L9.373 5c-.8.396-1.56.898-2.26 1.505-.71.607-1.34 1.305-1.9 2.094s-.98 1.68-1.25 2.69-.346 2.04-.217 3.1c.168 1.4.62 2.52 1.356 3.35.735.84 1.652 1.26 2.748 1.26.965 0 1.766-.29 2.4-.878.628-.576.94-1.365.94-2.368l.002.004zm9.124 0c0-.88-.23-1.618-.69-2.217-.326-.42-.768-.695-1.327-.825-.55-.13-1.07-.14-1.54-.03-.16-.94.09-1.95.75-3.02.66-1.06 1.514-1.86 2.557-2.4L18.49 5c-.8.396-1.555.898-2.26 1.505-.708.607-1.34 1.305-1.894 2.094-.556.79-.97 1.68-1.24 2.69-.273 1-.345 2.04-.217 3.1.168 1.4.62 2.52 1.356 3.35.735.84 1.652 1.26 2.748 1.26.965 0 1.766-.29 2.4-.878.628-.576.94-1.365.94-2.368l-.007.004z"/>
+                </svg>
+              </div>
+              <div class="testimonial-stars">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "We've worked with many cleaning companies over the years, but Spark is in a league of their own. Their showroom detailing service keeps our luxury car dealership immaculate."
+              </blockquote>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop&crop=face" alt="Sarah Chen" class="author-avatar">
+                <div class="author-info">
+                  <div class="author-name">Sarah Chen</div>
+                  <div class="author-role">General Manager, Premier Motors</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+              <div class="testimonial-quote-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M11.192 15.757c0-.88-.23-1.618-.69-2.217-.326-.412-.768-.683-1.327-.812-.55-.128-1.07-.137-1.54-.028-.16-.95.1-1.956.76-3.022.66-1.065 1.515-1.867 2.558-2.403L9.373 5c-.8.396-1.56.898-2.26 1.505-.71.607-1.34 1.305-1.9 2.094s-.98 1.68-1.25 2.69-.346 2.04-.217 3.1c.168 1.4.62 2.52 1.356 3.35.735.84 1.652 1.26 2.748 1.26.965 0 1.766-.29 2.4-.878.628-.576.94-1.365.94-2.368l.002.004zm9.124 0c0-.88-.23-1.618-.69-2.217-.326-.42-.768-.695-1.327-.825-.55-.13-1.07-.14-1.54-.03-.16-.94.09-1.95.75-3.02.66-1.06 1.514-1.86 2.557-2.4L18.49 5c-.8.396-1.555.898-2.26 1.505-.708.607-1.34 1.305-1.894 2.094-.556.79-.97 1.68-1.24 2.69-.273 1-.345 2.04-.217 3.1.168 1.4.62 2.52 1.356 3.35.735.84 1.652 1.26 2.748 1.26.965 0 1.766-.29 2.4-.878.628-.576.94-1.365.94-2.368l-.007.004z"/>
+                </svg>
+              </div>
+              <div class="testimonial-stars">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Running a fitness center means hygiene is paramount. Spark's daily cleaning service exceeds our expectations and keeps our members safe and happy."
+              </blockquote>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="David Wilson" class="author-avatar">
+                <div class="author-info">
+                  <div class="author-name">David Wilson</div>
+                  <div class="author-role">Owner, Elite Fitness Centre</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="section-label" data-animate="fade-up">
+              <span class="label-line"></span>
+              <span>Get in Touch</span>
+            </div>
+            
+            <h2 class="section-title" data-animate="fade-up" data-delay="100">
+              Let's Discuss <span class="text-gradient">Your Space</span>
+            </h2>
+            
+            <p class="contact-description" data-animate="fade-up" data-delay="200">
+              Ready to transform your commercial space? Get in touch for a free consultation and customized quote. We'll respond within 24 hours.
+            </p>
+
+            <div class="contact-details" data-animate="fade-up" data-delay="300">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Address</div>
+                  <div class="contact-value">218a High Road, Dagenham, UK</div>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Phone</div>
+                  <div class="contact-value">+44 999 7777 000</div>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <div class="contact-value">hello@sparkclean.co.uk</div>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-label">Hours</div>
+                  <div class="contact-value">Mon-Fri: 08:00-19:00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper" data-animate="fade-left" data-delay="200">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+44 000 000 0000">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your space and requirements..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-lg btn-full">
+                <span>Send Message</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </form>
+
+            <div class="form-success" id="formSuccess">
+              <div class="success-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+              </div>
+              <h3>Message Sent!</h3>
+              <p>Thank you for reaching out. We'll be in touch shortly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <img 
+              src="https://naked-jade-firefly-90f2caf2e1.fimo.site/uploads/2026/03/15/scc-logo-clean.png" 
+              alt="SCC" 
+              class="logo-img logo-img-footer"
+            >
+            <span class="logo-text">Spark Cleaning</span>
+          </a>
+          <p class="footer-tagline">Commercial cleaning with architectural precision.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Services</h4>
+          <a href="#services">Office Cleaning</a>
+          <a href="#services">Showroom Detailing</a>
+          <a href="#services">Leisure Facilities</a>
+          <a href="#contact">Custom Solutions</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>218a High Road, Dagenham</p>
+          <p>Romford, UK</p>
+          <a href="tel:+449997777000">+44 999 7777 000</a>
+          <a href="mailto:hello@sparkclean.co.uk">hello@sparkclean.co.uk</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Spark Cleaning Services. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
